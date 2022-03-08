@@ -31,22 +31,35 @@
 
                 <h2>Double-Double</h2>
 
-                <form>
-                    <div class="custom-control custom-checkbox">
-                      <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                      <label class="custom-control-label" for="customCheck">Lettuce</label>
-                    </div>
-
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Tomato</label>
-                      </div>
-
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Onion</label>
-                      </div>
-                </form>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" 
+                            id="dropdownMenu1" data-toggle="dropdown" 
+                            aria-haspopup="true" aria-expanded="true">
+                      <i class="glyphicon glyphicon-cog"></i>
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu checkbox-menu allow-focus" aria-labelledby="dropdownMenu1">
+                    
+                      <li >
+                        <label>
+                          <input type="checkbox"> Lettuce
+                        </label>
+                      </li>
+                      
+                      <li >
+                        <label>
+                          <input type="checkbox"> Tomato
+                        </label>
+                      </li>
+                      
+                      <li >
+                        <label>
+                          <input type="checkbox"> Onion
+                        </label>
+                      </li>
+                      
+                    </ul>
+                  </div>
             </div>
         </div>
 
