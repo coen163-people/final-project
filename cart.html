@@ -20,28 +20,35 @@
 
 	<body>
 
-		<form>
+        <div class="jumbotron bg-warning">
+			<br>
+			<h1 class="text-center text-primary">In-n-Out</h1>
+			<br>
+		</div>
 
-		    <div class="form-group form-check">
-		        <label class="form-check-label">
-		            <input class="form-check-input" type="checkbox" name="remember" required>Lettuce
-		        </label>
+        <div class="card bg-warning" style="width: 18rem;">
+            <div class="card-body">
 
-                <label class="form-check-label">
-		            <input class="form-check-input" type="checkbox" name="remember" required>Tomato
-		        </label>
+                <h2>Double-Double</h2>
 
-                <label class="form-check-label">
-		            <input class="form-check-input" type="checkbox" name="remember" required>Onions
-		        </label>
+                <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                      <label class="custom-control-label" for="customCheck">Lettuce</label>
+                    </div>
 
-                <label class="form-check-label">
-		            <input class="form-check-input" type="checkbox" name="remember" required>Cheese
-		        </label>
-		    </div>
-		    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                        <label class="custom-control-label" for="customCheck">Tomato</label>
+                      </div>
 
-		</form>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                        <label class="custom-control-label" for="customCheck">Onion</label>
+                      </div>
+                </form>
+            </div>
+        </div>
 
 	</body>
 
