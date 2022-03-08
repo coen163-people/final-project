@@ -39,7 +39,7 @@
   --bs-secondary: #fff;
   --bs-success: #469408;
   --bs-info: #029acf;
-  --bs-warning: #d9831f;
+  --bs-warning: #ffef00;
   --bs-danger: #9b479f;
   --bs-light: #fff;
   --bs-dark: #373a3c;
@@ -47,7 +47,7 @@
   --bs-secondary-rgb: 255, 255, 255;
   --bs-success-rgb: 70, 148, 8;
   --bs-info-rgb: 2, 154, 207;
-  --bs-warning-rgb: 217, 131, 31;
+  --bs-warning-rgb: 255, 239, 0;
   --bs-danger-rgb: 155, 71, 159;
   --bs-light-rgb: 255, 255, 255;
   --bs-dark-rgb: 55, 58, 60;
@@ -3238,7 +3238,7 @@ fieldset:disabled .btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #d9831f;
+  background-color: #ffef00;
   border-color: #d9831f;
 }
 
