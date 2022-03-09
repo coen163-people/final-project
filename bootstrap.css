@@ -11590,3 +11590,7 @@ fieldset:disabled .btn {
   color: #777;  
 }
 
+.vertical-center { 
+  display: flex;
+  align-items: center;
+}
