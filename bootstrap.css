@@ -11578,3 +11578,15 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-header {
+  color: #777;  
+}
+
