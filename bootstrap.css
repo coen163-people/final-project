@@ -11555,3 +11555,9 @@ fieldset:disabled .btn {
 .checkbox-menu li.active label:focus {
   background-color: #b8b8ff;
 }
+
+.checkbox-menu  {
+  column-count: 3;
+  column-gap: 1rem;
+  list-style: none;
+}
