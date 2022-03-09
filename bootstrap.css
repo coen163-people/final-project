@@ -11566,3 +11566,15 @@ fieldset:disabled .btn {
   border-radius: 10%;
   margin: 0.5%;
 }
+
+.jumbotron-container {
+  margin-bottom: 3%;
+  min-height: 100px;
+}
+
+.jumbotron {
+  background-image: url("static/images/inNOutLogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
