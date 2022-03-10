@@ -14,23 +14,39 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-		<title>Cart</title>
+		<title>Menu</title>
 
 	</head>
 
 	<body>
         <div class="jumbotron jumbotron-container bg-warning vertical-center">
-            <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" style="float:right;"></a>
-            <div style="clear: left;"></div>
+            <br>
+            <div class="row">
+                <div class="col">
+                <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" class="p-3 m-2" style="float:right;"></a>
+                </div>
+                <div class="col">
+                    <a href="loginPage.html"><button class="btn btn-primary float-right">Log Out</button></a>
+                </div>
+            </div>
+            <br>
         </div>
 
         <div class="container">
             <h1>Menu</h1>
 
+            <div class="btn-group justify-content-center p-2">
+                <a href="#burgers"><button type="button" class="btn btn-primary">Burgers</button></a>
+                <a href="#fries"><button type="button" class="btn btn-primary">French Fries</button></a>
+                <a href="#shakes"><button type="button" class="btn btn-primary">Shakes</button></a>
+                <a href="#bevs"><button type="button" class="btn btn-primary">Beverages</button></a>
+            </div>
+
+
             <div class="card bg-primary text-white">
                 <div class="card-body">
                     <ul class="pagination justify-content-center">
-                        <h2 class="card-title">Burgers</h2>
+                        <h2 class="card-title" id="burgers">Burgers</h2>
                     </ul>
                 </div>
             </div>
@@ -69,7 +85,7 @@
             <div class="card bg-primary text-white">
                 <div class="card-body">
                     <ul class="pagination justify-content-center">
-                        <h2 class="card-title">French Fries</h2>
+                        <h2 class="card-title" id="fries">French Fries</h2>
                     </ul>
                 </div>
             </div>
@@ -87,7 +103,7 @@
             <div class="card bg-primary text-white">
                 <div class="card-body">
                     <ul class="pagination justify-content-center">
-                        <h2 class="card-title">Shakes</h2>
+                        <h2 class="card-title" id="shakes">Shakes</h2>
                     </ul>
                 </div>
             </div>
@@ -125,7 +141,7 @@
             <div class="card bg-primary text-white">
                 <div class="card-body">
                     <ul class="pagination justify-content-center">
-                        <h2 class="card-title">Beverages</h2>
+                        <h2 class="card-title" id="bevs">Beverages</h2>
                     </ul>
                 </div>
             </div>
@@ -321,7 +337,7 @@
             <br>
             <br>
             <ul class="pagination justify-content-center">
-                <a href="cart.html"> <button type="button" class="btn btn-primary btn-block btn-lg">Review Order</button></a>
+                <a href="cart.html"> <button type="button" class="btn btn-primary btn-block btn-lg" id="reviewOrder">Review Order</button></a>
             </ul>
             <br>
             <br>

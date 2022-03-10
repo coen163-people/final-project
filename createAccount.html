@@ -26,59 +26,60 @@
 		</div>
 
 
-		<h2 style="font-weight: bold;">Create Account</h2>
+		<div class="m-3 p-4">
+			<h2 class="font-weight-bold">Create Account</h2>
 
-		<form action="home.html" class="was-validated">
+			<form action="home.html" class="needs-validation m-3 p-4">
 
+				<br>
+
+				<div class="form-group">
+			    <label for="uname">Name:</label>
+			    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+			    <div class="valid-feedback">Valid.</div>
+			    <div class="invalid-feedback">Please fill out this field.</div>
+			  </div>
+			  	<br>
+				<div class="form-group">
+			    <label for="uname">Email:</label>
+			    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
+			    <div class="valid-feedback">Valid.</div>
+			    <div class="invalid-feedback">Please fill out this field.</div>
+			  </div>
+			  <br>
+			  <div class="form-group">
+			    <label for="pwd">Password:</label>
+			    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+			    <div class="valid-feedback">Valid.</div>
+			    <div class="invalid-feedback">Please fill out this field.</div>
+			  </div>
+			  <br>
+
+			  <div class="form-group">
+			    <label for="pwd">Confirm Password:</label>
+			    <input type="password" class="form-control" id="pwdConfirm" placeholder="Enter password" name="pswdConfirm" required>
+			    <div class="valid-feedback">Valid.</div>
+			    <div class="invalid-feedback">Please fill out this field.</div>
+			  </div>
+
+			  <br>
+
+			  <div class="form-group form-check">
+			    <label class="form-check-label">
+			      <input class="form-check-input" type="checkbox" name="remember" required> I agree on Terms and Conditions.
+			      <div class="valid-feedback">Valid.</div>
+			      <div class="invalid-feedback">Check this checkbox to continue.</div>
+			    </label>
+			  </div>
+			  <br>
+			 <button type="submit" class="btn btn-primary">Create Account</button>
+
+			 	<br>
+			</form>
 			<br>
-			<br>
-
-			<div class="form-group">
-		    <label for="uname">Name:</label>
-		    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
-		    <div class="valid-feedback">Valid.</div>
-		    <div class="invalid-feedback">Please fill out this field.</div>
-		  </div>
-		  	<br>
-			<div class="form-group">
-		    <label for="uname">Username/Email:</label>
-		    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
-		    <div class="valid-feedback">Valid.</div>
-		    <div class="invalid-feedback">Please fill out this field.</div>
-		  </div>
-		  <br>
-		  <div class="form-group">
-		    <label for="pwd">Password:</label>
-		    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-		    <div class="valid-feedback">Valid.</div>
-		    <div class="invalid-feedback">Please fill out this field.</div>
-		  </div>
-		  <br>
-
-		  <div class="form-group">
-		    <label for="pwd">Confirm Password:</label>
-		    <input type="password" class="form-control" id="pwdConfirm" placeholder="Enter password" name="pswdConfirm" required>
-		    <div class="valid-feedback">Valid.</div>
-		    <div class="invalid-feedback">Please fill out this field.</div>
-		  </div>
-
-		  <br>
-
-		  <div class="form-group form-check">
-		    <label class="form-check-label">
-		      <input class="form-check-input" type="checkbox" name="remember" required> I agree on Terms and Conditions.
-		      <div class="valid-feedback">Valid.</div>
-		      <div class="invalid-feedback">Check this checkbox to continue.</div>
-		    </label>
-		  </div>
-		  <br>
-		 <button type="submit" class="btn btn-primary">Create Account</button>
-
-		 	<br>
-		</form>
-		<br>
-		<p>Already Have An Account?</p>
-		 <a href="loginPage.html"><button class="btn btn-primary">Log In</button></a>
+			<p>Already Have An Account?</p>
+			 <a href="loginPage.html"><button class="btn btn-primary">Log In</button></a>
+		</div>
 
 	</body>
 
