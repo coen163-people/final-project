@@ -20,8 +20,14 @@
 
 	<body>
         <div class="jumbotron jumbotron-container bg-warning vertical-center">
-            <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" style="float:right;"></a>
-            <div style="clear: left;"></div>
+            <div class="row">
+                <div class="col">
+                <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" class="p-3 m-2" style="float:right;"></a>
+                </div>
+                <div class="col">
+                    <a href="loginPage.html"><button class="btn btn-primary float-right">Log Out</button></a>
+                </div>
+            </div>
         </div>
         
         <a href="menu.html">
@@ -102,6 +108,8 @@
                         </div>
                     </ul>
                   </div>
+                    <p>Special instructions:</p>
+                   <input type="text" class="form-control" id="instructions" placeholder="Enter special instructions" name="instruct">
             </div>
         </div>
 
@@ -148,6 +156,10 @@
                         </div>
                     </ul>
                   </div>
+
+                   <p>Special instructions:</p>
+                   <input type="text" class="form-control" id="instructions" placeholder="Enter special instructions" name="instruct">
+
             </div>
         </div>
 
@@ -187,6 +199,9 @@
                         </div>
                     </ul>
                   </div>
+
+                   <p>Special instructions:</p>
+                   <input type="text" class="form-control" id="instructions" placeholder="Enter special instructions" name="instruct">
             </div>
         </div>
 
@@ -205,7 +220,7 @@
         </div>
 
         <div class="text-center" style="margin: 1%;">
-            <a href="" ><button type="submit" class="btn btn-primary btn-lg btn-block">Check out</button></a>
+            <a href="payment.html" ><button type="submit" class="btn btn-primary btn-lg btn-block">Check out</button></a>
         </div>
 	</body>
 
