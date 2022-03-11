@@ -18,6 +18,14 @@
 
 	</head>
 
+    <script> 
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('.display-hide').show()
+            }) 
+        });
+    </script>
+
 	<body>
         <div class="jumbotron jumbotron-container bg-warning vertical-center">
             <br>
@@ -35,19 +43,25 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="card">
+                    <img class="card-img-top" src="static/images/double-double-meal.png" alt="Card image">
                     <div class="card-body">
-                        <h5 class="card-title">Combo Meal #1</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Add Meal</a>
+                        <h5 class="card-title">Combo Meal #1 $6.70</h5>
+                        <p class="card-text">Double-double with french fries and your choice of a medium soft drink.</p>
+                        <button class="btn btn-primary">Add Meal to Cart</button>
+                        <div class="display-hide alert-success alert-dismissable">
+                            <button type="button" class="close" data-dismiss="display-hide" aria-hidden="true">&times;</button>
+                                    Success! message sent successfully.
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="card">
+                    <img class="card-img-top" src="static/images/cheeseburger-meal.png" alt="Card image">
                     <div class="card-body">
-                        <h5 class="card-title">Combo Meal #2</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Add Meal</a>
+                        <h5 class="card-title">Combo Meal #2 $5.65</h5>
+                        <p class="card-text">Cheeseburger with french fries and your choice of a medium soft drink.</p>
+                        <a href="#" class="btn btn-primary">Add Meal to Cart</a>
                     </div>
                 </div>
             </div>
@@ -56,10 +70,11 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="card">
+                    <img class="card-img-top" src="static/images/hamburger-meal.png" alt="Card image">
                     <div class="card-body">
-                        <h5 class="card-title">Combo Meal #3</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Add Meal</a>
+                        <h5 class="card-title">Combo Meal #3 $5.35</h5>
+                        <p class="card-text">Hamburger with french fries and your choice of a medium soft drink.</p>
+                        <a href="#" class="btn btn-primary">Add Meal to Cart</a>
                     </div>
                 </div>
             </div>
