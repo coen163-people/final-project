@@ -11594,3 +11594,7 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
 }
+
+.view {
+  height: 100%;
+}
