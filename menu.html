@@ -16,6 +16,18 @@
 
 		<title>Menu</title>
 
+        <script>
+            function logOut(){
+                let logOut = window.confirm("Are you sure you want to be logged out?")
+                if(logOut == true){
+                    window.location.href = "loginPage.html";
+                }else{
+                    return;   
+                }
+
+            }
+        </script>
+
 	</head>
 
 	<body>
@@ -26,7 +38,7 @@
                 <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" class="p-3 m-2" style="float:right;"></a>
                 </div>
                 <div class="col">
-                    <a href="loginPage.html"><button class="btn btn-primary float-right">Log Out</button></a>
+                    <button class="btn btn-primary float-right" onClick="logOut()">Log Out</button>
                 </div>
             </div>
             <br>

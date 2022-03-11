@@ -16,10 +16,31 @@
 
 		<title>Payment Method</title>
 
+		<script>
+            function logOut(){
+                let logOut = window.confirm("Are you sure you want to be logged out?")
+                if(logOut == true){
+                    window.location.href = "loginPage.html";
+                }else{
+                    return;    
+                }
+
+            }
+        </script>
+
 	</head>
 
 	<body class="bg-light">
-		<div class="jumbotron jumbotron-container bg-warning vertical-center"></div>
+		<div class="jumbotron jumbotron-container bg-warning vertical-center">
+		    <div class="row">
+		        <div class="col">
+		        <a href="cart.html"><img src="static/images/cart-fill.svg" alt="Cart button" class="p-3 m-2" style="float:right;"></a>
+		        </div>
+		        <div class="col">
+		            <button class="btn btn-primary float-right" onClick="logOut()">Log Out</button>
+		        </div>
+		    </div>
+		</div>
     
 		<a href="cart.html">
             <svg width=2% height=2% viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
